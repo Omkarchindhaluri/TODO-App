@@ -1,0 +1,88 @@
+body{
+    background-color: aqua;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 , form{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+   
+}
+#inputBox{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px ;
+}
+#submit{
+    width: 100px;
+    height: 35px;
+    border-radius: 8px ;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+}
+#submit:hover{
+    color: black;
+    background-color: #fff;
+    transition: 0.3s ease-out;
+
+}
+.todo-card{
+    font-size: 20px;
+    border: 1px solid #ccc;
+    width: 700px;
+    margin: 3px;
+    border-radius: 12px ;
+    box-shadow: 0 0 4px gray;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: seashell;
+}
+.todo-card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 4px black;
+    transform: scale(1.05);
+    transition: 1.5s ease-out;
+}
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.fa{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 20%;
+}
+.fa:hover{
+    font-weight: bolder;
+}
+.para{
+   display: inline-block;
+   padding: 10px;
+   margin: 10px;
+}
+.para-side{
+    margin: 10px;
+    padding: 8px;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px ;
+}
+.para-side:hover{
+    color: black;
+    background-color: #fff;
+    transition: 0.3s ease-out;
+    
+}
+.extra{
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+}
